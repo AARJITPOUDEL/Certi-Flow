@@ -13,13 +13,6 @@
   width: 100%;
   border-radius: 5px;
 }
-/* .App .Meta button {
-  padding: 10px 15px;
-  font-family: inherit;
-  margin: 20px 0;
-  border-radius: 10px;
-  cursor: pointer;
-} */
 
 .certificateWrapper {
   position: relative;
@@ -29,7 +22,7 @@
   font-family: "Staatliches", cursive;
   margin: 0;
   position: absolute;
-  transform: translateX(-50%); 
+  transform: translateX(-50%);
   margin-top: 20px;
   color: red;
   left: 50%;
@@ -40,49 +33,4 @@
   bottom: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-} 
-@media (max-width: 767px) {
-  .App {
-    flex-direction: column;
-    padding: 0;
-  }
-  .App .Meta {
-    padding-right: 0;
-    text-align: center;
-  }
-  .App .Meta input {
-    margin-top: 10px;
-  }
-  .certificateWrapper {
-    width: 100%;
-    height: auto;
-  }
-
-  .image {
-    width: 400px;
-    height: 600px;
-  }
-  .p {
-    font-family: "Staatliches", cursive;
-    margin: 0;
-    position: absolute;
-    transform: translateX(-30%); /* Center the name horizontally */
-    color: red;
-    text-align: center;
-    top: 330px;
-    font-size: 20pt;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .NameDiv {
-    top: 2rem;
-    text-align: center;
-    position: fixed;
-    font-size: 20pt;
-
-    left: 0rem;
-    float: left;
-  }
 }

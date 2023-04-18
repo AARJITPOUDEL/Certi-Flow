@@ -12,7 +12,9 @@ const App = () => {
   };
 
   const handleDownload = () => {
-    exportComponentAsPNG(certificateWrapper, { fileName: `${name}_certificate` });
+    exportComponentAsPNG(certificateWrapper, {
+      fileName: `${name}_certificate`,
+    });
   };
 
   return (
