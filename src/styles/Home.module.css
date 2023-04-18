@@ -1,5 +1,4 @@
 .App {
-  font-family: "Hachi Maru Pop", cursive;
   display: flex;
   padding: 15px;
 }
@@ -7,19 +6,10 @@
   flex-grow: 1;
   padding-right: 15px;
 }
-.App .Meta input {
-  font-family: inherit;
-  padding: 5px;
-  width: 100%;
-  border-radius: 5px;
-}
-
 .certificateWrapper {
   position: relative;
 }
-
 .p {
-  font-family: "Staatliches", cursive;
   margin: 0;
   position: absolute;
   transform: translateX(-50%);
